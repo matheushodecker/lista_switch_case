@@ -8,10 +8,33 @@
     */
 
     //ENTRADA
-
+    let n1 = Number(prompt("informe um numero").trim().replace(",","."));
+    let n2 = Number(prompt("informe um numero").trim().replace(",","."));
+    let operacao = prompt("informme a operacao que voce deseja fazer \n( + ) \n( - ) \n( / ) \n( * )");
 
     //PROCESSAMENTO
-
+    switch (n1 % 2) {
+        case 0:
+            alert("esse numero é par");
+            break;
+        case 1:
+            alert("esse numero é impar");
+            break;
+        default:
+            alert("voce inventou um numero");
+            break;
+    }
+    switch (n2 % 2) {
+        case 0:
+            alert("esse numero é par");
+            break;
+        case 1:
+            alert("esse numero é impar");
+            break;
+        default:
+            alert("voce inventou um numero");
+            break;
+    }
     
     //SAÍDA
 
